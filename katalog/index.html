@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Katalog sklepów</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Katalog sklepów</h1>
+
+  <input id="searchInput" placeholder="Szukaj sklepu...">
+
+ <div class="buttons">
+
+  <button onclick="filterStores('Wszystkie')">Wszystkie</button>
+
+  <button onclick="showFavorites()">⭐ Ulubione</button>
+  <button onclick="filterStores('Elektronika')">Elektronika</button>
+  <button onclick="filterStores('Jedzenie')">Jedzenie</button>
+  <button onclick="filterStores('Ubrania')">Ubrania</button>
+  <button onclick="filterStores('Dom i ogród')">Dom i ogród</button>
+  <button onclick="filterStores('Kosmetyki')">Kosmetyki</button>
+  <button onclick="filterStores('Sport')">Sport</button>
+  <button onclick="filterStores('Gry')">Gry</button>
+
+  <button onclick="filterStores('Książki')">Książki</button>
+  <button onclick="filterStores('Motoryzacja')">Motoryzacja</button>
+  <button onclick="filterStores('Zwierzęta')">Zwierzęta</button>
+  <button onclick="filterStores('Kawiarnie')">Kawiarnie</button>
+
+</div>
+</header>
+
+<main id="storeContainer"></main>
+
+<script src="script.js"></script>
+</body>
+</html>
