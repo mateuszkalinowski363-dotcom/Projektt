@@ -17,12 +17,12 @@
 ## 2. Stos Technologiczny
 ## Frontend:
 
-#### React.js: Odpowiada za dynamiczny interfejs.
+#### JS: Odpowiada za dynamiczny interfejs.
 
-#### Tailwind CSS: System klas do szybkiego budowania wyglądu (odpowiada za responsywność, czyli działanie na telefonach).
+#### CSS: System klas do szybkiego budowania wyglądu (odpowiada za responsywność, czyli działanie na telefonach).
 
 ## Backend:
-#### Baza danych
+#### JSON
 
 # 3. Kluczowe Funkcje
 ### Dynamiczny Pasek Kategorii: Główne menu (np. Elektronika, Moda, Sport), które po kliknięciu błyskawicznie filtruje listę sklepów bez odświeżania całej strony.
